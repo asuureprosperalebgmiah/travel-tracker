@@ -1,0 +1,27 @@
+{
+  "name": "travel-tracker",
+  "version": "1.0.0",
+  "description": "Interactive travel tracker built with Express, EJS, PostgreSQL, and an SVG world map.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "check": "node --check index.js"
+  },
+  "keywords": [
+    "travel",
+    "express",
+    "ejs",
+    "postgresql",
+    "javascript"
+  ],
+  "author": "Asuure Prosper Alebgmiah",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "pg": "^8.13.3"
+  }
+}
